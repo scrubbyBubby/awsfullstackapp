@@ -16,5 +16,19 @@
         }
       }
     }
+  },
+  "auth": {
+    "awsfullstackapp0ecf739f": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "imagestorage": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }
